@@ -126,7 +126,7 @@ const NOTEBOOK = [
 // -----------------------------
 // Utilities
 // -----------------------------
-function classNames(...xs) {
+function classNames(...xs: Array<string | false | null | undefined>) {
   return xs.filter(Boolean).join(" ");
 }
 
