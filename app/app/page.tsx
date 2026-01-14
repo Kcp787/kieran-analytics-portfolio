@@ -130,7 +130,15 @@ function classNames(...xs: Array<string | false | null | undefined>) {
   return xs.filter(Boolean).join(" ");
 }
 
-function SectionTitle({ icon: Icon, title, subtitle }) {
+function SectionTitle({
+  icon: Icon,
+  title,
+  subtitle,
+}: {
+  icon: React.ElementType;
+  title: string;
+  subtitle?: string;
+}) {
   return (
     <div className="flex items-start justify-between gap-6">
       <div className="flex items-center gap-3">
@@ -148,7 +156,7 @@ function SectionTitle({ icon: Icon, title, subtitle }) {
   );
 }
 
-function Pill({ children }) {
+function Pill({ children }: { children: React.ReactNode }) {
   return (
     <Badge variant="secondary" className="rounded-full px-3 py-1 text-xs">
       {children}
@@ -198,7 +206,15 @@ function OutputBlock({ text }) {
   );
 }
 
-function MockDashboardCard({ title, subtitle, children }) {
+function MockDashboardCard({
+  title,
+  subtitle,
+  children,
+}: {
+  title: string;
+  subtitle: string;
+  children: React.ReactNode;
+}) {
   return (
     <Card className="rounded-2xl shadow-sm">
       <CardContent className="p-5">
