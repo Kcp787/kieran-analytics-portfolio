@@ -52,8 +52,8 @@ const PROFILE = {
   location: "Prestwich, England (Remote)",
   email: "Kieran.Wong336@gmail.com",
   linkedin: "https://www.linkedin.com/in/kieranw7799",
-  github: "https://github.com/your-handle", // optional
-  cvUrl: "#", // replace with a hosted PDF link (Google Drive public link, GitHub raw, etc.)
+  github: "https://github.com/Kcp787", // optional
+  cvUrl: "https://github.com/Kcp787/UU_Personal/blob/76a801fd5ae39fc7f0bfcd3ac25e3c5086402f91/Kieran_Wong_Remote_Analytics_Contractor.pdf", // replace with a hosted PDF link (Google Drive public link, GitHub raw, etc.)
 };
 
 // -----------------------------
