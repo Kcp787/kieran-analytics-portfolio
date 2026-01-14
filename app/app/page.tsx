@@ -164,7 +164,7 @@ function Pill({ children }: { children: React.ReactNode }) {
   );
 }
 
-function CodeBlock({ title, code }) {
+function CodeBlock({ title, code }: { title: string; code: string }) {
   return (
     <div className="rounded-2xl border bg-background overflow-hidden">
       <div className="px-4 py-3 border-b flex items-center justify-between bg-muted/30">
@@ -195,7 +195,7 @@ function CodeBlock({ title, code }) {
   );
 }
 
-function OutputBlock({ text }) {
+function OutputBlock({ text }: { text: string }) {
   return (
     <div className="rounded-2xl border bg-muted/20 p-4">
       <div className="text-xs font-medium text-muted-foreground mb-2">Output</div>
@@ -323,7 +323,17 @@ function ExcelVbaPanel() {
   );
 }
 
-function ProjectCard({ title, desc, tags, highlights }) {
+function ProjectCard({
+  title,
+  desc,
+  tags,
+  highlights,
+}: {
+  title: string;
+  desc: string;
+  tags: string[];
+  highlights: string[];
+}) {
   return (
     <Card className="rounded-2xl shadow-sm">
       <CardContent className="p-5">
