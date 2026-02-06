@@ -477,7 +477,7 @@ export default function PortfolioSite() {
 
                   <div className="mt-5 flex flex-wrap gap-2">
                     <Pill>Available: Remote contracts</Pill>
-                    <Pill>Day rate: £450–£550</Pill>
+                    <Pill>Competitive Day Rates | Available for Project-Based Contracts</Pill>
                     <Pill>Timezone: UK / overlap-friendly</Pill>
                   </div>
 
