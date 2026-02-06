@@ -53,7 +53,7 @@ const PROFILE = {
   email: "Kieran.Wong336@gmail.com",
   linkedin: "https://www.linkedin.com/in/kieranw7799",
   github: "https://github.com/Kcp787", // optional
-  cvUrl: "https://github.com/Kcp787/UU_Personal/blob/76a801fd5ae39fc7f0bfcd3ac25e3c5086402f91/Kieran_Wong_Remote_Analytics_Contractor.pdf", // replace with a hosted PDF link (Google Drive public link, GitHub raw, etc.)
+  cvUrl: "https://drive.google.com/file/d/16dFYEJExKyoznzBrPPyXxAdq0gDdW16M/view?usp=drive_link", // replace with a hosted PDF link (Google Drive public link, GitHub raw, etc.)
 };
 
 // -----------------------------
@@ -596,7 +596,7 @@ export default function PortfolioSite() {
                 >
                   <div className="flex items-center gap-2">
                     <Github className="h-4 w-4" />
-                    <span className="text-sm">GitHub (optional)</span>
+                    <span className="text-sm">GitHub</span>
                   </div>
                   <ArrowRight className="h-4 w-4 text-muted-foreground" />
                 </a>
@@ -622,8 +622,7 @@ export default function PortfolioSite() {
               <div className="text-xs text-muted-foreground leading-relaxed">
                 <span className="font-medium text-foreground/90">Note:</span>{" "}
                 This portfolio contains demo data and examples to showcase approach and
-                tooling. Replace placeholders with real screenshots or case studies as
-                available.
+                tooling.
               </div>
             </CardContent>
           </Card>
@@ -674,7 +673,7 @@ export default function PortfolioSite() {
             <SectionTitle
               icon={LayoutDashboard}
               title="BI-style dashboards"
-              subtitle="Interactive charts (demo). Replace with Tableau screenshots if desired."
+              subtitle="Interactive charts (examples)."
             />
 
             <div className="mt-6 grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -778,8 +777,7 @@ export default function PortfolioSite() {
                         <div className="text-sm font-semibold">What this shows</div>
                         <div className="mt-2 text-sm text-muted-foreground leading-relaxed">
                           A typical approach: define the question, shape data, establish
-                          a baseline, validate, then package results. Replace this demo
-                          with a real notebook export later if you’d like.
+                          a baseline, validate, then package results
                         </div>
                       </div>
                       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -812,8 +810,6 @@ export default function PortfolioSite() {
                           </ul>
                           <Separator className="my-4" />
                           <div className="text-xs text-muted-foreground">
-                            Want a real notebook? Replace demo cells in the NOTEBOOK
-                            array and add links to GitHub or a hosted HTML export.
                           </div>
                         </div>
                       </div>
